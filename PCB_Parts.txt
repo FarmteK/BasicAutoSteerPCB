@@ -1,0 +1,68 @@
+Partlist exported from C:/Users/Grizs/Documents/eagle7/diyAutoSteer/diyAutoSteer.sch at 2019-03-16 10:13 PM
+
+Part    Value            Device             Package          Description                                                       
+12S     WIREPAD3,81/1,1  WIREPAD3,81/1,1    3,81/1,1         Wire PAD connect wire on PCB                                      
+12S1    WIREPAD3,81/1,1  WIREPAD3,81/1,1    3,81/1,1         Wire PAD connect wire on PCB                                      
+12S2    WIREPAD3,81/1,1  WIREPAD3,81/1,1    3,81/1,1         Wire PAD connect wire on PCB                                      
+12S5    WIREPAD3,81/1,1  WIREPAD3,81/1,1    3,81/1,1         Wire PAD connect wire on PCB                                      
+A1      A2               CONN_02PTH3        1X02_LONGPADS    Multi connection point. Often used as Generic Header-pin footprint
+AUX_A/D                  CONN_03LONGPADS    1X03_LONGPADS    Multi connection point. Often used as Generic Header-pin footprint
+BAT     WIREPAD3,81/1,1  WIREPAD3,81/1,1    3,81/1,1         Wire PAD connect wire on PCB                                      
+BAT1    WIREPAD3,81/1,1  WIREPAD3,81/1,1    3,81/1,1         Wire PAD connect wire on PCB                                      
+C1      0.1              C-US025-025X050    C025-025X050     CAPACITOR, American symbol                                        
+C2      0.1              C-US025-025X050    C025-025X050     CAPACITOR, American symbol                                        
+C3      0.1              C-US025-025X050    C025-025X050     CAPACITOR, American symbol                                        
+C4      0.1              C-US025-025X050    C025-025X050     CAPACITOR, American symbol                                        
+C5      0.1              C-US025-025X050    C025-025X050     CAPACITOR, American symbol                                        
+C6      0.1              C-US025-025X050    C025-025X050     CAPACITOR, American symbol                                        
+C20     1000uF           CPOL-USE5-10.5     E5-10,5          POLARIZED CAPACITOR, American symbol                              
+C21     1000uF           CPOL-USE5-10.5     E5-10,5          POLARIZED CAPACITOR, American symbol                              
+C22     1000uF           CPOL-USE5-10.5     E5-10,5          POLARIZED CAPACITOR, American symbol                              
+C23     1000uF           CPOL-USE5-10.5     E5-10,5          POLARIZED CAPACITOR, American symbol                              
+D1      1N4004           1N4004             DO41-10          DIODE                                                             
+D2      1N4004           1N4004             DO41-10          DIODE                                                             
+D3      1N4004           1N4004             DO41-10          DIODE                                                             
+D5                       CONN_01PTH_LONGPAD 1X01_LONGPAD     Single connection point. Often used as Generic Header-pin footprin
+GN1     WIREPAD3,81/1,1  WIREPAD3,81/1,1    3,81/1,1         Wire PAD connect wire on PCB                                      
+GN2     WIREPAD3,81/1,1  WIREPAD3,81/1,1    3,81/1,1         Wire PAD connect wire on PCB                                      
+GN3     WIREPAD3,81/1,1  WIREPAD3,81/1,1    3,81/1,1         Wire PAD connect wire on PCB                                      
+GN4     WIREPAD3,81/1,1  WIREPAD3,81/1,1    3,81/1,1         Wire PAD connect wire on PCB                                      
+GN5     WIREPAD3,81/1,1  WIREPAD3,81/1,1    3,81/1,1         Wire PAD connect wire on PCB                                      
+GND     WIREPAD3,81/1,1  WIREPAD3,81/1,1    3,81/1,1         Wire PAD connect wire on PCB                                      
+IC1                      MMA8452Q           BREAKOUT_6PIN                                                                      
+IC2     7805             78XXS              78XXS            VOLTAGE REGULATOR                                                 
+IC3     7805             78XXS              78XXS            VOLTAGE REGULATOR                                                 
+IMP                      CONN_03LONGPADS    1X03_LONGPADS    Multi connection point. Often used as Generic Header-pin footprint
+INT0                     CONN_01PTH_LONGPAD 1X01_LONGPAD     Single connection point. Often used as Generic Header-pin footprin
+J1      I2C Out          CONN_02PTH3        1X02_LONGPADS    Multi connection point. Often used as Generic Header-pin footprint
+J6      Reset            CONN_02PTH3        1X02_LONGPADS    Multi connection point. Often used as Generic Header-pin footprint
+K4      CB1-P-12V        CB1-P-12V          CB1              HIGH POWER AUTOMOTIVE RELAY Form C NAiS                           
+LED1    3mm              LED3MM             LED3MM           LED                                                               
+M1      ARDUINO-NANO-3.0 ARDUINO-NANO-3.0   ARDUINO-NANO-3.0 Arduino Nano 3.0 and compatible devices                           
+MOTOR                    CONN_04LONGPADS    1X04_LONGPADS    Multi connection point. Often used as Generic Header-pin footprint
+OK1     4N33             4N33               DIL06            MOTOROLA OPTO COUPLER                                             
+OK2     4N33             4N33               DIL06            MOTOROLA OPTO COUPLER                                             
+OK3     4N33             4N33               DIL06            MOTOROLA OPTO COUPLER                                             
+ON_OFF                   CONN_02PTH3        1X02_LONGPADS    Multi connection point. Often used as Generic Header-pin footprint
+R1      330              R-US_0309/12       0309/12          RESISTOR, American symbol                                         
+R2      330              R-US_0309/12       0309/12          RESISTOR, American symbol                                         
+R3      1k               R-US_0309/12       0309/12          RESISTOR, American symbol                                         
+R4      330              R-US_0309/12       0309/12          RESISTOR, American symbol                                         
+R5      330              R-US_0309/12       0309/12          RESISTOR, American symbol                                         
+R6      1k               R-US_0309/12       0309/12          RESISTOR, American symbol                                         
+R7      1k               R-US_0309/12       0309/12          RESISTOR, American symbol                                         
+R8      47               R-US_0309/12       0309/12          RESISTOR, American symbol                                         
+R9      330              R-US_0309/12       0309/12          RESISTOR, American symbol                                         
+R10     330              R-US_0309/12       0309/12          RESISTOR, American symbol                                         
+R11     330              R-US_0309/12       0309/12          RESISTOR, American symbol                                         
+R12     1k               R-US_0309/12       0309/12          RESISTOR, American symbol                                         
+R13     1k               R-US_0309/12       0309/12          RESISTOR, American symbol                                         
+R14     330              R-US_0309/12       0309/12          RESISTOR, American symbol                                         
+R16     1k               R-US_0309/12       0309/12          RESISTOR, American symbol                                         
+R17     1k               R-US_0309/12       0309/12          RESISTOR, American symbol                                         
+R18     330              R-US_0309/12       0309/12          RESISTOR, American symbol                                         
+R19     1k               R-US_0309/12       0309/12          RESISTOR, American symbol                                         
+REMOTE                   CONN_03LONGPADS    1X03_LONGPADS    Multi connection point. Often used as Generic Header-pin footprint
+STEER                    CONN_03LONGPADS    1X03_LONGPADS    Multi connection point. Often used as Generic Header-pin footprint
+U2      ADC-4CH-ADS1115  ADC-4CH-ADS1115    ADC-4CH-ADS1115  4 Channel 16-Bit Analog-to-Digital Converter based on ADS1115 chip
+W.A.S.                   CONN_04LONGPADS    1X04_LONGPADS    Multi connection point. Often used as Generic Header-pin footprint
