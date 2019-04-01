@@ -18370,7 +18370,7 @@ Siemens, Hewlett-Packard, Texas Instuments, Sharp, Motorola&lt;p&gt;
 <part name="12S5" library="wirepad" deviceset="WIREPAD" device="3,81/1,1"/>
 <part name="IMP" library="SparkFun-Connectors" deviceset="CONN_03" device="LONGPADS"/>
 <part name="STEER" library="SparkFun-Connectors" deviceset="CONN_03" device="LONGPADS"/>
-<part name="R8" library="rcl" deviceset="R-US_" device="0309/12" value="47"/>
+<part name="R8" library="rcl" deviceset="R-US_" device="0309/12" value="0"/>
 </parts>
 <sheets>
 <sheet>
