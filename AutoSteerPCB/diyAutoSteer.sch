@@ -15788,8 +15788,8 @@ diameter 5 mm, horizontal, grid 15.24 mm</description>
 <wire x1="5.08" y1="-2.54" x2="-5.08" y2="-2.54" width="0.1524" layer="21"/>
 <wire x1="7.62" y1="0" x2="6.223" y2="0" width="1.27" layer="51"/>
 <wire x1="-7.62" y1="0" x2="-6.223" y2="0" width="1.27" layer="51"/>
-<pad name="C" x="-7.62" y="0" drill="2.54" diameter="6.4516"/>
-<pad name="A" x="7.62" y="0" drill="2.54" diameter="6.4516"/>
+<pad name="C" x="-7.62" y="0" drill="2" diameter="6.4516"/>
+<pad name="A" x="7.62" y="0" drill="2" diameter="6.4516"/>
 <text x="-5.08" y="2.921" size="1.27" layer="25" ratio="10">&gt;NAME</text>
 <text x="-2.54" y="-2.159" size="1.27" layer="27" ratio="10">&gt;VALUE</text>
 <rectangle x1="-4.191" y1="-2.54" x2="-3.429" y2="2.54" layer="21"/>
@@ -17972,7 +17972,7 @@ Comments, suggestions and bug reports please send to: &lt;b&gt;&lt;a href="mailt
 </package>
 <package name="3,81/1,1">
 <description>&lt;b&gt;THROUGH-HOLE PAD&lt;/b&gt;</description>
-<pad name="1" x="0" y="0" drill="2.54" diameter="6.4516"/>
+<pad name="1" x="0" y="0" drill="2.2" diameter="6.4516"/>
 <text x="-1.905" y="2.286" size="1.27" layer="25" ratio="10">&gt;NAME</text>
 <text x="0" y="1.2" size="0.0254" layer="27">&gt;VALUE</text>
 </package>
@@ -20001,6 +20001,8 @@ Siemens, Hewlett-Packard, Texas Instuments, Sharp, Motorola&lt;p&gt;
 <part name="D2" library="diode" deviceset="DIODE-" device="DO27-15" value="3A diode"/>
 <part name="GN1" library="wirepad" deviceset="WIREPAD" device="3,81/1,1"/>
 <part name="GN4" library="wirepad" deviceset="WIREPAD" device="3,81/1,1"/>
+<part name="+12V" library="SparkFun-Connectors" deviceset="CONN_02" device="PTH3"/>
+<part name="DOG2" library="SparkFun-Connectors" deviceset="CONN_02" device="PTH3"/>
 </parts>
 <sheets>
 <sheet>
@@ -20250,6 +20252,8 @@ Siemens, Hewlett-Packard, Texas Instuments, Sharp, Motorola&lt;p&gt;
 <instance part="GN4" gate="G$1" x="109.22" y="172.72" smashed="yes" rot="R270">
 <attribute name="NAME" x="108.5342" y="180.721" size="1.778" layer="95" rot="R270"/>
 </instance>
+<instance part="+12V" gate="G$1" x="101.6" y="152.4" rot="R180"/>
+<instance part="DOG2" gate="G$1" x="45.72" y="142.24"/>
 </instances>
 <busses>
 </busses>
@@ -20326,6 +20330,10 @@ Siemens, Hewlett-Packard, Texas Instuments, Sharp, Motorola&lt;p&gt;
 <pinref part="SUPPLY17" gate="GND" pin="GND"/>
 <wire x1="66.04" y1="152.4" x2="66.04" y2="149.86" width="0.1524" layer="91"/>
 <pinref part="D1" gate="1" pin="A"/>
+<pinref part="DOG2" gate="G$1" pin="2"/>
+<wire x1="53.34" y1="144.78" x2="53.34" y2="149.86" width="0.1524" layer="91"/>
+<wire x1="53.34" y1="149.86" x2="66.04" y2="149.86" width="0.1524" layer="91"/>
+<junction x="66.04" y="149.86"/>
 </segment>
 <segment>
 <pinref part="SUPPLY9" gate="GND" pin="GND"/>
@@ -20565,6 +20573,16 @@ Siemens, Hewlett-Packard, Texas Instuments, Sharp, Motorola&lt;p&gt;
 <junction x="71.12" y="162.56"/>
 <pinref part="C20" gate="G$1" pin="+"/>
 <pinref part="D2" gate="G$1" pin="C"/>
+<wire x1="86.36" y1="162.56" x2="93.98" y2="162.56" width="0.1524" layer="91"/>
+<junction x="86.36" y="162.56"/>
+<pinref part="+12V" gate="G$1" pin="1"/>
+<wire x1="93.98" y1="162.56" x2="93.98" y2="152.4" width="0.1524" layer="91"/>
+<pinref part="+12V" gate="G$1" pin="2"/>
+<wire x1="93.98" y1="152.4" x2="93.98" y2="149.86" width="0.1524" layer="91"/>
+<junction x="93.98" y="152.4"/>
+<pinref part="DOG2" gate="G$1" pin="1"/>
+<wire x1="53.34" y1="142.24" x2="53.34" y2="137.16" width="0.1524" layer="91"/>
+<wire x1="53.34" y1="137.16" x2="71.12" y2="137.16" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="N$12" class="0">
